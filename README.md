@@ -1,4 +1,4 @@
-# JAVA, Eclipce
+# JAVA, MVC 프레임워크
 
 Used IDE : Eclipce</br>
 강의 : 인프런, [NarP Series]MVC 프레임워크는 내손에[나프1탄]
@@ -7,7 +7,7 @@ Used IDE : Eclipce</br>
 
 **1. 웹 개발환경(eGovFrame-3.1.0) 구성하기**
 - _src.kr.web_
-  - [MyUtil.java](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/util/MyUtil.java) - 
+  - [MyUtil.java](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/util/MyUtil.java) - 비즈니스 로직 분리 class Test
 - _webapp_
   - [index.html](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/webapp/index.html) - 정적 페이지 테스티 및 톰켓 서버 연동 방법
   - [mysqldb.html](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/webapp/mysqldb.html) - 전자정부 프레임워크 다운 및 MySql 연동 방법
