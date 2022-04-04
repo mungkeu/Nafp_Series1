@@ -1,0 +1,47 @@
+<!-- 
+
+https://egovframe.go.kr/home/main.do 전자정부프레임워크 -> 여기서 이클립스, db등 한번에 다운.
+
+
+startup.bat
+stop.bat
+
+접속
+mysql -u root -p
+pw: 처음엔 공백
+
+show databases; // 데이터베이스 목록 보여줌
+
+use mysql; // mysql db를 사용하겠다.
+
+update mysql.user set password=password('admin12345') where user='root' and host='localhost';
+
+// mysql의 user 테이블에 로컬호스트 컴퓨터를 사용하면서 아이디가 root인 계정의
+비밀번호를 admin12345로 변경하겠다.
+
+flush privileges;
+// 서버가 비밀번호 변경을 인식.
+
+quit; //종료
+
+mysqladmin -u root -p shutdown // 종료방법
+
+https://hdhdeveloper.tistory.com/14 // 에러해결 블로그
+
+-----------------------------------------------------------------
+eclipse 데이터베이스 연결
+Data Source Explorer
+
+드라이버 jar 파일이 필요
+C:\eGovFrame-3.10.0\maven\repository\mysql\mysql-connector-java\5.1.31 에 존재.
+
+Data Source Explorer-> Database Connections 우클릭 -> 추가 -> MySQL 클릭후 Next ->  드라이버 옆 삼각형 클릭
+-> JAR list 확인후 properties 체크
+
+jdbc:mysql://localhost:3306/mysql?characterEncoding=UTF-8&serverTimeZone=UTC <-- 이부분 꼭 체크 한글설정등 바꾸어줘야함.
+test	<-- 디비이름
+com.mysql.jdbc.Driver 
+admin12345 <-- 디비 접속 계정 비번
+root	<-- 디비 접속 아이디
+
+ -->

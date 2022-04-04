@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	손기명  홈페이지 방문을 환영합니다.(정적인 페이지)<br>
+	지금 시간이 몇시인지?
+</body>
+</html>
+
+<!-- 
+	우리가 만든 웹애플리케이션을 톰켓 서버에 등록해야 한다.
+	
+	Sever(Tomcat) -> server.xml ->151번째 줄 비어있는 곳에
+	<Context path="/web" docBase="C:\eGovFrame-3.10.0\workspace.edu\WEB\webapp"/> 추가.
+	
+	톰켓서버는 Context path의 web/의 경로를 보고 찾아간다.
+	같이 등록된 docBase를 보고 찾아가는데 C:\eGovFrame-3.10.0\workspace.edu\WEB\webapp를 찾아간다.
+	
+	찾아서 web폴더 안의 index.html을 찾아 클라이언트에 전송해준다.
+ -->
