@@ -1,13 +1,18 @@
-# JAVA, MVC 프레임워크
+# JAVA, 전자정부 프레임워크 3.10.0
 
-Used IDE : Eclipce</br>
+Used IDE : eGovframe.edu</br>
 강의 : 인프런, [NarP Series]MVC 프레임워크는 내손에[나프1탄]
 
 ### **JAVA MVC**
 
 **1. 웹 개발환경(eGovFrame-3.1.0) 구성하기**
-- _src.kr.web_
-  - [MyUtil.java](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/util/MyUtil.java) - 비즈니스 로직 분리 class Test
+* _src.kr.web_
+  - _Util_
+    - [MyUtil.java](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/util/MyUtil.java) - 비즈니스 로직 분리 class Test
+  - _controller_
+    - [HelloServlet.java](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/controller/HelloServlet.java) - Servlet골격, mapping, HttpServletRequest, HttpServletResponse
+  - _db_
+    - [member.sql](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/src/kr/web/db/member.sql) - 회원 DB 테이블 생성
 - _webapp_
   - [index.html](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/webapp/index.html) - 정적 페이지 테스티 및 톰켓 서버 연동 방법
   - [mysqldb.html](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/webapp/mysqldb.html) - 전자정부 프레임워크 다운 및 MySql 연동 방법
@@ -15,5 +20,9 @@ Used IDE : Eclipce</br>
   - [time.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/Web/webapp/time.jsp) - 서블릿 사용을 위한 servlet-api.jar 파일을 연동 방법
 - _사용중인 lib_
   - [lib](https://github.com/mungkeu/Nafp_Series1/tree/main/Web/webapp/WEB-INF/lib)  
+
+---
+
+</br>
 
 **2. MVC01 버전(Servlet과 Model만을 이용한 회원관리 만들기**
