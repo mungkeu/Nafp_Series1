@@ -44,5 +44,9 @@ Used IDE : eGovframe.edu</br>
   - _db_
     - [member.sql](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/src/kr/bit/db/member.sql) - 회원 DB 테이블 생성
 * _WebContent_
-  - _META-INF_
-  - _WEB-INF_
+  - _member_
+    - [memberRegister.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/member/memberRegister.html) - 회원 가입 UI 페이지
+  - [index.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/index.html)
+  - [su.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/su.html) - CalcController에 데이터 전송을 위한 클라이언트 UI 페이지
+  - [test.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/test.jsp)
+  - [%EB%B0%B0%ED%8F%AC.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/%EB%B0%B0%ED%8F%AC.html) - 배포 방법, Export, Import
