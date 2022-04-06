@@ -32,7 +32,7 @@ Used IDE : eGovframe.edu</br>
 
 </br>
 
-**2. MVC01 버전(Servlet과 Model만을 이용한 회원관리 만들기**
+**2. MVC01 버전 Servlet과 Model만을 이용한 회원관리 만들기**
 * _src.kr.bit_
   - _Model_
     - [Mycalc.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/src/kr/bit/Model/Mycalc.java) - Calc 서블릿의 비즈니스 로직을 분리
@@ -56,3 +56,12 @@ Used IDE : eGovframe.edu</br>
   - [su.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/su.html) - CalcController에 데이터 전송을 위한 클라이언트 UI 페이지, 컨텍스트 패스
   - [test.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/test.jsp)
   - [%EB%B0%B0%ED%8F%AC.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/%EB%B0%B0%ED%8F%AC.html) - 배포 방법, Export, Import
+  
+  </br>
+
+---
+
+</br>
+
+**3. MVC02**
+* _src.kr.bit_
