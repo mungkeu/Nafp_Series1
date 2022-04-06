@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="calc.do" method="post"> <!-- 1. action="매핑된 서블릿 이름" method="전송방식" -> default는 get방식-->
+<table class="table table-bordered">
+	<tr>
+		<td>수1</td>
+		<td><input type="text" name="su1"/></td>
+	</tr>
+	<tr>
+		<td>수2</td>
+		<td><input type="text" name="su2"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input type="submit" value="전송" class="btn btn-primary"/> <!-- submit도 마찬가지 -->
+			<input type="reset" value="취소" class="btn btn-warning"/> <!-- reset은 폼안에 있어야만 동작. -->
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html> 
+
+<!-- 
+	사용자로부터 입력받는 영역을 form이라고한다.
+ -->
