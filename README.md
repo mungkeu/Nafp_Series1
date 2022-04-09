@@ -57,11 +57,39 @@ Used IDE : eGovframe.edu</br>
   - [test.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/test.jsp)
   - [%EB%B0%B0%ED%8F%AC.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC01/WebContent/%EB%B0%B0%ED%8F%AC.html) - 배포 방법, Export, Import
   
-  </br>
+</br>
 
 ---
 
 </br>
 
-**3. MVC02**
+**3. MVC02 버전 JSP와 Model만을 이용한 회원관리 만들기 (모델1방식)**
 * _src.kr.bit_
+  - _Model_
+    - [MemberDAO.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/src/kr/bit/Model/MemberDAO.java) - 회원 JDBC를 위한 클래스 (Java+SQL)
+    - [MemberVO.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/src/kr/bit/Model/MemberVO.java) - 회원 VO 클래스  
+    - [JSP.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/src/kr/bit/Model/JSP.java) - MVC02 정리
+  - _db_
+    - [member.sql](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/src/kr/bit/db/member.sql) - 회원 DB 테이블 생성 및 테스트
+* _WebContent_
+  - _member_
+    - [memberRegister.html](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberRegister.html) - 회원 가입 UI 페이지
+    - [memberList.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberList.jsp) - 회원 정보 리스트 출력
+    - [memberInsert.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberInsert.jsp) - 회원 정보 등록
+    - [memberContent.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberContent.jsp) - 회원 정보 상세보기
+    - [memberDelete.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberDelete.jsp) - 회원 정보 삭제
+    - [memberUpdate.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC02/WebContent/member/memberUpdate.jsp) - 회원 정보 수정
+
+</br>
+
+---
+
+</br>
+
+**4. MVC03 버전 Model-View-Controller를 이용한 회원관리 만들기 (모델2방식)**
+* _src.kr.bit_
+  - _Model_
+  - _controller_
+  - _db_
+* _WebContent_
+  - _member_
