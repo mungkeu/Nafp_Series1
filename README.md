@@ -169,7 +169,3 @@ Used IDE : eGovframe.edu</br>
 
 <b>회원정보 상세 페이지</b><br>
 ![회원정보](https://user-images.githubusercontent.com/101312446/162640826-38cb4fb3-81b8-4b4e-a28a-6c1c804cbef8.png)
-
-<h1>수료증</h1>
-
-![image](https://user-images.githubusercontent.com/101312446/162641054-eb548762-c3d2-4426-878c-c41e25a4ced9.png)
