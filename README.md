@@ -158,10 +158,14 @@ Used IDE : eGovframe.edu</br>
 
 </br>
 
-<h1>실제 홈페이지 화면</h1>
+<h1>홈페이지 화면</h1>
 <br>
-<b>회원 가입 페이지</b><br>
-![회원가입](https://user-images.githubusercontent.com/101312446/162640566-48667e90-dae0-4ff4-b4e6-0d5778a94aa7.png)
 
+<b>회원가입 페이지</b><br>
+![회원가입](https://user-images.githubusercontent.com/101312446/162640909-f8a63fab-eef0-4b32-a191-43887a4d1a4d.png)
 
+<b>회원리스트 페이지</b><br>
+![회원리스트](https://user-images.githubusercontent.com/101312446/162640701-f3025146-37f0-424a-80b4-de75c26da673.png)
 
+<b>회원정보 상세 페이지</b><br>
+![회원정보](https://user-images.githubusercontent.com/101312446/162640826-38cb4fb3-81b8-4b4e-a28a-6c1c804cbef8.png)
