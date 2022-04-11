@@ -131,26 +131,26 @@ Used IDE : eGovframe.edu</br>
   - _Model_
     - [MemberDAO.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/Model/MemberDAO.java) - 회원 JDBC를 위한 클래스 (Java+SQL)
     - [MemberVO.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/Model/MemberVO.java) - 회원 VO 클래스  
-    - [MVC.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/Model/MVC.java) - MVC04 
+    - [MVC.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/Model/MVC.java) - MVC04 정리
   - _controller_
-    - [Controller.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/Controller.java)
-    - [MemberContentController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberContentController.java)
-    - [MemberDeleteController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberDeleteController.java)
-    - [MemberInsertController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberInsertController.java)
-    - [MemberListController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberListController.java)
-    - [MemberRegisterController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberRegisterController.java)
-    - [MemberUpdateController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberUpdateController.java)
+    - [Controller.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/Controller.java) - POJO가 상속해야 할 인터페이스
+    - [MemberContentController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberContentController.java) - 회원 정보 상세보기 POJO
+    - [MemberDeleteController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberDeleteController.java) - 회원 정보 삭제 POJO
+    - [MemberInsertController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberInsertController.java) - 회원 정보 등록 POJO
+    - [MemberListController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberListController.java) - 회원 정보 리스트 출력 POJO
+    - [MemberRegisterController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberRegisterController.java) - 회원 가입 화면 POJO
+    - [MemberUpdateController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/controller/MemberUpdateController.java) - 회원 정보 수정 POJO
   - _db_
     - [member.sql](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/db/member.sql) - 회원 DB 테이블 생성 및 테스트
   - _frontController_
-    - [HandlerMapping.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/HandlerMapping.java)
-    - [MemberFrontController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/MemberFrontController.java)
-    - [ViewResolver.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/ViewResolver.java)
+    - [HandlerMapping.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/HandlerMapping.java) - 요청에 따른 분기작업 (HandlerMappint)
+    - [MemberFrontController.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/MemberFrontController.java) - 모든 요청을 처리하는 컨트롤러
+    - [ViewResolver.java](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/src/kr/bit/frontController/ViewResolver.java) - View의 경로를 담당.
 * _WebContent_
   - _WEB-INF/member_
-    - [memberContent.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberContent.jsp)
-    - [memberList.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberList.jsp)
-    - [memberRegister.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberRegister.jsp)
+    - [memberContent.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberContent.jsp) - 회원 상세보기 페이지 UI
+    - [memberList.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberList.jsp) - 회원 정보 리스트 페이지 UI
+    - [memberRegister.jsp](https://github.com/mungkeu/Nafp_Series1/blob/main/MVC04/WebContent/WEB-INF/member/memberRegister.jsp) - 회원 가입 페이지 UI
 
 </br>
 
